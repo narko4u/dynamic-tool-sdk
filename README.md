@@ -212,6 +212,24 @@ This is not a research project. This is a **shippable, tested, production-ready 
 
 ---
 
+## Acknowledgements
+
+The TypeScript adapters build directly on two independent projects:
+
+- **[Vercel AI SDK](https://sdk.vercel.ai/)** (`ai`) - the provider-agnostic
+  model interface the adapters target.
+- **[Zod](https://zod.dev/)** - runtime validation of tool schemas.
+
+Development tooling: [TypeScript](https://www.typescriptlang.org/) and
+[Vitest](https://vitest.dev/).
+
+The SDK interoperates with OpenAI, Anthropic, LiteLLM, LangChain and the Vercel
+AI SDK. These are independent projects with their own maintainers and terms.
+Interoperability is not affiliation: none of them has reviewed, endorsed or
+certified this work.
+
+---
+
 ## License
 
 The public adapter code is MIT licensed. The core engine (`dynamic_tool_sdk/core/`) is proprietary and requires a license agreement.
