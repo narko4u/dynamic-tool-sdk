@@ -1,0 +1,19 @@
+# Citation File Format (CFF) - https://citation-file-format.github.io
+# Generated 2026-09-22 by Empire Labs. Fields are sourced from this repository's
+# real metadata (tags, releases, licence). No values are estimated.
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "dynamic-tool-sdk"
+abstract: "Give your LLM the power to load any toolset mid-conversation. OpenAI, Anthropic, LiteLLM, LangChain, Vercel AI SDK - one wrapper, zero code changes."
+authors:
+  - name: "Empire Labs Pty Ltd"
+    website: "https://www.empirelabs.com.au"
+    email: "contact@empirelabs.com.au"
+license: "MIT"
+repository-code: "https://github.com/narko4u/dynamic-tool-sdk"
+url: "https://www.empirelabs.com.au"
+keywords:
+  - "AI agent governance"
+  - "agentic AI"
+  - "AI compliance"
